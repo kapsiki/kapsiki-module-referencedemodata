@@ -656,19 +656,19 @@ public class ReferenceDemoDataActivator extends BaseModuleActivator {
 
 	private static final String[] GENDERS = {"M", "F"};
 	
-	private static final String[] MALE_FIRST_NAMES = { "James", "John", "Robert", "Michael", "William", "David", "Richard",
-        "Joseph", "Charles", "Thomas", "Christopher", "Daniel", "Matthew", "Donald", "Anthony", "Paul", "Mark",
-        "George", "Steven", "Kenneth", "Andrew", "Edward", "Brian", "Joshua", "Kevin" };
+	private static final String[] MALE_FIRST_NAMES = { "Paul", "Salifou", "Robert", "Michael", "William", "David", "Richard",
+        "Joseph", "Charles", "Thomas", "Ethan", "Daniel", "Mathieu", "Donald", "Antoine", "Paul", "Samuel",
+        "Georges", "Stephane", "Kenneth", "Andre", "Edward", "Brian", "Junior", "Kevin" };
 
-	private static final String[] FEMALE_FIRST_NAMES = { "Mary", "Patricia", "Elizabeth", "Jennifer", "Linda", "Barbara",
-        "Susan", "Margaret", "Jessica", "Dorothy", "Sarah", "Karen", "Nancy", "Betty", "Lisa", "Sandra", "Helen",
-        "Donna", "Ashley", "Kimberly", "Carol", "Michelle", "Amanda", "Emily", "Melissa" };
+	private static final String[] FEMALE_FIRST_NAMES = { "Marie", "Patricia", "Elisabeth", "Jennifer", "Linda", "Barbara",
+        "Suzanne", "Angele", "Jessica", "Felicia", "Sarah", "Karen", "Nancy", "Betty", "Lisa", "Sandra", "Eveline",
+        "Donna", "Ashley", "Kimberly", "Carolle", "Michelle", "Amanda", "Emily", "Melissa" };
 
-	private static final String[] FAMILY_NAMES = { "Smith", "Johnson", "Williams", "Brown", "Jones", "Miller", "Davis",
-        "García", "Rodríguez", "Wilson", "Martínez", "Anderson", "Taylor", "Thomas", "Hernández", "Moore", "Martin",
-        "Jackson", "Thompson", "White", "López", "Lee", "González", "Harris", "Clark", "Lewis", "Robinson", "Walker",
-        "Pérez", "Hall", "Young", "Allen", "Sánchez", "Wright", "King", "Scott", "Green", "Baker", "Adams", "Nelson",
-        "Hill", "Ramírez", "Campbell", "Mitchell", "Roberts", "Carter", "Phillips", "Evans", "Turner", "Torres" };
+	private static final String[] FAMILY_NAMES = { "MBARGA", "ELONG", "FIANGA", "ETAM", "POUALA", "NDJOCK", "MOUELLE",
+        "SAIBOU", "ENONA", "ONANA", "NANA", "KONTCHOU", "NDAM", "NJOYA", "BOUBA", "EMOUNE", "FEUGANG",
+        "ESSOKA", "MIDIYAWA", "NTOCK NTOCK", "BIKOK", "NDOG KOBE", "MBEMBE", "EBENE", "BIDJECK", "TONYE", "DONFACK", "AYISSI",
+        "ONDOUA", "YUFENYUY", "EYA", "MONKAM", "FRU", "NGASSA", "HAMADOU", "MAHAMAT", "KAMGA", "NGAH", "MEDJO", "TATAH",
+        "NGOUNOU", "MATIKE", "EWANE", "ONDOA", "TAGNE", "ASHUY", "MAFFO", "MBANGA", "ATOH", "TAMBA" };
 	
 	private static final String[] RANDOM_TEXT = {
 		"Lorem ipsum dolor sit amet", 

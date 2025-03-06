@@ -29,20 +29,20 @@ public class DemoPersonGenerator {
 	private static final int MAX_AGE = 90;
 	
 	private static final String[] GENDERS = {"M", "F"};
-	
-	private static final String[] MALE_FIRST_NAMES = { "James", "John", "Robert", "Michael", "William", "David", "Richard",
-			"Joseph", "Charles", "Thomas", "Christopher", "Daniel", "Matthew", "Donald", "Anthony", "Paul", "Mark",
-			"George", "Steven", "Kenneth", "Andrew", "Edward", "Brian", "Joshua", "Kevin", "Dennis", "Peter" };
-	
-	private static final String[] FEMALE_FIRST_NAMES = { "Mary", "Patricia", "Elizabeth", "Jennifer", "Linda", "Barbara",
-			"Susan", "Margaret", "Jessica", "Dorothy", "Sarah", "Karen", "Nancy", "Betty", "Lisa", "Sandra", "Helen",
-			"Donna", "Ashley", "Kimberly", "Carol", "Michelle", "Amanda", "Emily", "Melissa", "Grace", "Agnes" };
-	
-	private static final String[] FAMILY_NAMES = { "Smith", "Johnson", "Williams", "Brown", "Jones", "Miller", "Davis",
-			"Garcia", "Rodriguez", "Wilson", "Martinez", "Anderson", "Taylor", "Thomas", "Hernandez", "Moore", "Martin",
-			"Jackson", "Thompson", "White", "Lopez", "Lee", "Gonzalez", "Harris", "Clark", "Lewis", "Robinson", "Walker",
-			"Perez", "Hall", "Young", "Allen", "Sanchez", "Wright", "King", "Scott", "Green", "Baker", "Adams", "Nelson",
-			"Hill", "Ramirez", "Campbell", "Mitchell", "Roberts", "Carter", "Phillips", "Evans", "Turner", "Torres", "Odinga" };
+
+	private static final String[] MALE_FIRST_NAMES = { "Paul", "Salifou", "Robert", "Michael", "William", "David", "Richard",
+			"Joseph", "Charles", "Thomas", "Ethan", "Daniel", "Mathieu", "Donald", "Antoine", "Paul", "Samuel",
+			"Georges", "Stephane", "Kenneth", "Andre", "Edward", "Brian", "Junior", "Kevin" };
+
+	private static final String[] FEMALE_FIRST_NAMES = { "Marie", "Patricia", "Elisabeth", "Jennifer", "Linda", "Barbara",
+			"Suzanne", "Angele", "Jessica", "Felicia", "Sarah", "Karen", "Nancy", "Betty", "Lisa", "Sandra", "Eveline",
+			"Donna", "Ashley", "Kimberly", "Carolle", "Michelle", "Amanda", "Emily", "Melissa" };
+
+	private static final String[] FAMILY_NAMES = { "MBARGA", "ELONG", "FIANGA", "ETAM", "POUALA", "NDJOCK", "MOUELLE",
+			"SAIBOU", "ENONA", "ONANA", "NANA", "KONTCHOU", "NDAM", "NJOYA", "BOUBA", "EMOUNE", "FEUGANG",
+			"ESSOKA", "MIDIYAWA", "NTOCK NTOCK", "BIKOK", "NDOG KOBE", "MBEMBE", "EBENE", "BIDJECK", "TONYE", "DONFACK", "AYISSI",
+			"ONDOUA", "YUFENYUY", "EYA", "MONKAM", "FRU", "NGASSA", "HAMADOU", "MAHAMAT", "KAMGA", "NGAH", "MEDJO", "TATAH",
+			"NGOUNOU", "MATIKE", "EWANE", "ONDOA", "TAGNE", "ASHUY", "MAFFO", "MBANGA", "ATOH", "TAMBA" };
 	
 	public static Person populatePerson(Person person) {
 		PersonName personName = new PersonName();
